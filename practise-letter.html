@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        text-align: center;
+        
+    }
+    h1{
+       font-weight: bold;
+       font-size: 40px;
+       margin-top: 40px;
+       color: red;
+    }
+    #yes-btn{
+        width: 110px;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        color: whitesmoke;
+        padding: 7px;
+        background-color: green;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-right: 15px;
+    }
+    #of-course{
+        width: 110px;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        color: whitesmoke;
+        background-color:rgb(19, 171, 231) ;
+        padding: 7px;
+        border: 1px solid black;
+        border-radius: 5px;}
+        .container{
+            /* border:2px solid black; */
+            padding-bottom: 80px;
+            padding-top: 30px;
+            width: 70%;
+            margin: 50px 15%;
+            background-color: whitesmoke;
+            border-radius: 20px;
+            
+        }
+        
+    
+</style>
+<body>
+    <div class="container">
+        <h1 id="text">Do You Love Me?💌 </h1>
+    <button id="yes-btn">Yes</button>
+    <button id="of-course">Of Course</button>
+    </div>
+
+
+
+    <script>
+        document.getElementById('yes-btn').addEventListener('click', function(){
+        document.getElementById('text').innerText = "Ready to marry me💟";
+        text.style.color = 'deeppink';
+        })
+        document.getElementById('of-course').addEventListener('click', function(){
+        document.getElementById('text').innerText = "Love you too babu 💝   ";
+        text.style.color = 'fuchsia';
+        })
+    </script>
+</body>
+</html>
